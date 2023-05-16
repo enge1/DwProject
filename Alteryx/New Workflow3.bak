@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Age" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Gender" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Education" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Ethnicity" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Nscore" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Escore" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Oscore" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="AScore" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Cscore" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Impulsive" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SS" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Alcohol" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Amphet" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Amyl" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Benzos" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Caff" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Cannabis" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Choc" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Coke" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Crack" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Ecstasy" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Heroin" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Ketamine" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Legalh" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="LSD" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Meth" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mushrooms" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Nicotine" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Semer" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="VSA" size="255" source="File: C:\Users\LAPTOP\Documents\dw.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TitleCase([Country])" field="Country" size="255" type="V_String" />
+            <FormulaField expression="Substring([Age],0,2)&#xA;" field="Starting age" size="1073741823" type="V_WString" />
+            <FormulaField expression="Substring([Age],3,2)" field="Ending age" size="1073741823" type="V_WString" />
+            <FormulaField expression="ReplaceChar([Education],&quot; &quot;, &quot;_&quot;)" field="Education" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Country = TitleCase([Country])
+Starting age = Substring([Age],0,2)
+
+Ending age =...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Substring([Gender],0,1) == "M"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Substring([Gender],0,1) == "M"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" type="V_WString" size="255" />
+            <SelectField field="Age" selected="True" type="V_WString" size="255" />
+            <SelectField field="Gender" selected="True" type="V_WString" size="255" />
+            <SelectField field="Education" selected="True" type="V_WString" size="255" />
+            <SelectField field="Country" selected="True" type="V_WString" size="255" />
+            <SelectField field="Ethnicity" selected="True" type="V_WString" size="255" />
+            <SelectField field="Nscore" selected="True" type="V_WString" size="255" />
+            <SelectField field="Escore" selected="True" type="V_WString" size="255" />
+            <SelectField field="Oscore" selected="True" type="V_WString" size="255" />
+            <SelectField field="AScore" selected="True" type="V_WString" size="255" />
+            <SelectField field="Cscore" selected="True" type="V_WString" size="255" />
+            <SelectField field="Impulsive" selected="True" type="V_WString" size="255" />
+            <SelectField field="SS" selected="True" type="V_WString" size="255" />
+            <SelectField field="Alcohol" selected="True" type="V_WString" size="255" />
+            <SelectField field="Amphet" selected="True" type="V_WString" size="255" />
+            <SelectField field="Amyl" selected="True" type="V_WString" size="255" />
+            <SelectField field="Benzos" selected="True" type="V_WString" size="255" />
+            <SelectField field="Caff" selected="True" type="V_WString" size="255" />
+            <SelectField field="Cannabis" selected="True" type="V_WString" size="255" />
+            <SelectField field="Choc" selected="True" type="V_WString" size="255" />
+            <SelectField field="Coke" selected="True" type="V_WString" size="255" />
+            <SelectField field="Crack" selected="True" type="V_WString" size="255" />
+            <SelectField field="Ecstasy" selected="True" type="V_WString" size="255" />
+            <SelectField field="Heroin" selected="True" type="V_WString" size="255" />
+            <SelectField field="Ketamine" selected="True" type="V_WString" size="255" />
+            <SelectField field="Legalh" selected="True" type="V_WString" size="255" />
+            <SelectField field="LSD" selected="True" type="V_WString" size="255" />
+            <SelectField field="Meth" selected="True" type="V_WString" size="255" />
+            <SelectField field="Mushrooms" selected="True" type="V_WString" size="255" />
+            <SelectField field="Nicotine" selected="True" type="V_WString" size="255" />
+            <SelectField field="Semer" selected="True" type="V_WString" size="255" />
+            <SelectField field="VSA" selected="True" type="V_WString" size="255" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="546" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:sql server|||dist1</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:sql server
+Query=dist1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="546" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:sql server|||dist2</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:sql server
+Query=dist2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="False" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1675a6b4-811a-4eba-a28d-ef79deaa74d3" />
+      <Telemetry>
+        <PreviousWorkflowId value="bcd94b19-c125-479c-9523-439ffe68df69" />
+        <OriginWorkflowId value="bcd94b19-c125-479c-9523-439ffe68df69" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

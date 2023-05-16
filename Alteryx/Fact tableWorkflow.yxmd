@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo."FFemale"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-NNKF398\MSSQLSERVER02
+Catalog=Engy-2
+Query=dbo."FFemale"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Age" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Gender" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Education" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Country" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Ethnicity" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Nscore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Escore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Oscore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="AScore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Cscore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Impulsive" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="SS" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Alcohol" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Amphet" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Amyl" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Benzos" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Caff" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Cannabis" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Choc" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Coke" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Crack" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Ecstasy" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Heroin" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Ketamine" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Legalh" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="LSD" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Meth" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Mushrooms" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Nicotine" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Semer" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="VSA" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Starting age" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+            <Field name="Ending age" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Engy-2;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;FFemale&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="282" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo."New_drug_id"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-NNKF398\MSSQLSERVER02
+Catalog=Star Schema Engy
+Query=dbo."New_drug_id"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="New_drug_id" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="Int32" />
+            <Field name="Alcohol" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Amphet" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Amyl" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Benzos" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Caff" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Cannabis" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Choc" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Coke" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Crack" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Ecstasy" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Heroin" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Ketamine" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Legalh" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="LSD" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Meth" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Mushrooms" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Nicotine" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="Semer" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+            <Field name="VSA" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;New_drug_id&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" />
+            <SelectField field="Age" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="Education" selected="True" />
+            <SelectField field="Country" selected="True" />
+            <SelectField field="Ethnicity" selected="True" />
+            <SelectField field="Nscore" selected="True" />
+            <SelectField field="Escore" selected="True" />
+            <SelectField field="Oscore" selected="True" />
+            <SelectField field="AScore" selected="True" />
+            <SelectField field="Cscore" selected="True" />
+            <SelectField field="Impulsive" selected="True" />
+            <SelectField field="SS" selected="True" />
+            <SelectField field="Alcohol" selected="True" />
+            <SelectField field="Amphet" selected="True" />
+            <SelectField field="Amyl" selected="True" />
+            <SelectField field="Benzos" selected="True" />
+            <SelectField field="Caff" selected="True" />
+            <SelectField field="Cannabis" selected="True" />
+            <SelectField field="Choc" selected="True" />
+            <SelectField field="Coke" selected="True" />
+            <SelectField field="Crack" selected="True" />
+            <SelectField field="Ecstasy" selected="True" />
+            <SelectField field="Heroin" selected="True" />
+            <SelectField field="Ketamine" selected="True" />
+            <SelectField field="Legalh" selected="True" />
+            <SelectField field="LSD" selected="True" />
+            <SelectField field="Meth" selected="True" />
+            <SelectField field="Mushrooms" selected="True" />
+            <SelectField field="Nicotine" selected="True" />
+            <SelectField field="Semer" selected="True" />
+            <SelectField field="VSA" selected="True" />
+            <SelectField field="Starting age" selected="True" />
+            <SelectField field="Ending age" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="414" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Alcohol" />
+            <Field field="Amphet" />
+            <Field field="Amyl" />
+            <Field field="Benzos" />
+            <Field field="Caff" />
+            <Field field="Cannabis" />
+            <Field field="Choc" />
+            <Field field="Coke" />
+            <Field field="Crack" />
+            <Field field="Ecstasy" />
+            <Field field="Heroin" />
+            <Field field="Ketamine" />
+            <Field field="Legalh" />
+            <Field field="LSD" />
+            <Field field="Meth" />
+            <Field field="Mushrooms" />
+            <Field field="Nicotine" />
+            <Field field="Semer" />
+            <Field field="VSA" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Alcohol" />
+            <Field field="Amphet" />
+            <Field field="Amyl" />
+            <Field field="Benzos" />
+            <Field field="Caff" />
+            <Field field="Cannabis" />
+            <Field field="Choc" />
+            <Field field="Coke" />
+            <Field field="Crack" />
+            <Field field="Ecstasy" />
+            <Field field="Heroin" />
+            <Field field="Ketamine" />
+            <Field field="Legalh" />
+            <Field field="LSD" />
+            <Field field="Meth" />
+            <Field field="Mushrooms" />
+            <Field field="Nicotine" />
+            <Field field="Semer" />
+            <Field field="VSA" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Age" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_Education" selected="True" input="Left_" />
+                <SelectField field="Left_Country" selected="True" input="Left_" />
+                <SelectField field="Left_Ethnicity" selected="True" input="Left_" />
+                <SelectField field="Left_Nscore" selected="True" input="Left_" />
+                <SelectField field="Left_Escore" selected="True" input="Left_" />
+                <SelectField field="Left_Oscore" selected="True" input="Left_" />
+                <SelectField field="Left_AScore" selected="True" input="Left_" />
+                <SelectField field="Left_Cscore" selected="True" input="Left_" />
+                <SelectField field="Left_Impulsive" selected="True" input="Left_" />
+                <SelectField field="Left_SS" selected="True" input="Left_" />
+                <SelectField field="Left_Alcohol" selected="True" input="Left_" />
+                <SelectField field="Left_Amphet" selected="True" input="Left_" />
+                <SelectField field="Left_Amyl" selected="True" input="Left_" />
+                <SelectField field="Left_Benzos" selected="True" input="Left_" />
+                <SelectField field="Left_Caff" selected="True" input="Left_" />
+                <SelectField field="Left_Cannabis" selected="True" input="Left_" />
+                <SelectField field="Left_Choc" selected="True" input="Left_" />
+                <SelectField field="Left_Coke" selected="True" input="Left_" />
+                <SelectField field="Left_Crack" selected="True" input="Left_" />
+                <SelectField field="Left_Ecstasy" selected="True" input="Left_" />
+                <SelectField field="Left_Heroin" selected="True" input="Left_" />
+                <SelectField field="Left_Ketamine" selected="True" input="Left_" />
+                <SelectField field="Left_Legalh" selected="True" input="Left_" />
+                <SelectField field="Left_LSD" selected="True" input="Left_" />
+                <SelectField field="Left_Meth" selected="True" input="Left_" />
+                <SelectField field="Left_Mushrooms" selected="True" input="Left_" />
+                <SelectField field="Left_Nicotine" selected="True" input="Left_" />
+                <SelectField field="Left_Semer" selected="True" input="Left_" />
+                <SelectField field="Left_VSA" selected="True" input="Left_" />
+                <SelectField field="Left_Starting age" selected="True" input="Left_" />
+                <SelectField field="Left_Ending age" selected="True" input="Left_" />
+                <SelectField field="Right_New_drug_id" selected="True" input="Right_" />
+                <SelectField field="Right_Alcohol" selected="True" rename="Right_Alcohol" input="Right_" />
+                <SelectField field="Right_Amphet" selected="True" rename="Right_Amphet" input="Right_" />
+                <SelectField field="Right_Amyl" selected="True" rename="Right_Amyl" input="Right_" />
+                <SelectField field="Right_Benzos" selected="True" rename="Right_Benzos" input="Right_" />
+                <SelectField field="Right_Caff" selected="True" rename="Right_Caff" input="Right_" />
+                <SelectField field="Right_Cannabis" selected="True" rename="Right_Cannabis" input="Right_" />
+                <SelectField field="Right_Choc" selected="True" rename="Right_Choc" input="Right_" />
+                <SelectField field="Right_Coke" selected="True" rename="Right_Coke" input="Right_" />
+                <SelectField field="Right_Crack" selected="True" rename="Right_Crack" input="Right_" />
+                <SelectField field="Right_Ecstasy" selected="True" rename="Right_Ecstasy" input="Right_" />
+                <SelectField field="Right_Heroin" selected="True" rename="Right_Heroin" input="Right_" />
+                <SelectField field="Right_Ketamine" selected="True" rename="Right_Ketamine" input="Right_" />
+                <SelectField field="Right_Legalh" selected="True" rename="Right_Legalh" input="Right_" />
+                <SelectField field="Right_LSD" selected="True" rename="Right_LSD" input="Right_" />
+                <SelectField field="Right_Meth" selected="True" rename="Right_Meth" input="Right_" />
+                <SelectField field="Right_Mushrooms" selected="True" rename="Right_Mushrooms" input="Right_" />
+                <SelectField field="Right_Nicotine" selected="True" rename="Right_Nicotine" input="Right_" />
+                <SelectField field="Right_Semer" selected="True" rename="Right_Semer" input="Right_" />
+                <SelectField field="Right_VSA" selected="True" rename="Right_VSA" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Nscore" />
+            <Field field="Escore" />
+            <Field field="Oscore" />
+            <Field field="AScore" />
+            <Field field="Cscore" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Nscore" />
+            <Field field="Escore" />
+            <Field field="Oscore" />
+            <Field field="AScore" />
+            <Field field="Cscore" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Age" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_Education" selected="True" input="Left_" />
+                <SelectField field="Left_Country" selected="True" input="Left_" />
+                <SelectField field="Left_Ethnicity" selected="True" input="Left_" />
+                <SelectField field="Left_Nscore" selected="True" input="Left_" />
+                <SelectField field="Left_Escore" selected="True" input="Left_" />
+                <SelectField field="Left_Oscore" selected="True" input="Left_" />
+                <SelectField field="Left_AScore" selected="True" input="Left_" />
+                <SelectField field="Left_Cscore" selected="True" input="Left_" />
+                <SelectField field="Left_Impulsive" selected="True" input="Left_" />
+                <SelectField field="Left_SS" selected="True" input="Left_" />
+                <SelectField field="Left_Alcohol" selected="True" input="Left_" />
+                <SelectField field="Left_Amphet" selected="True" input="Left_" />
+                <SelectField field="Left_Amyl" selected="True" input="Left_" />
+                <SelectField field="Left_Benzos" selected="True" input="Left_" />
+                <SelectField field="Left_Caff" selected="True" input="Left_" />
+                <SelectField field="Left_Cannabis" selected="True" input="Left_" />
+                <SelectField field="Left_Choc" selected="True" input="Left_" />
+                <SelectField field="Left_Coke" selected="True" input="Left_" />
+                <SelectField field="Left_Crack" selected="True" input="Left_" />
+                <SelectField field="Left_Ecstasy" selected="True" input="Left_" />
+                <SelectField field="Left_Heroin" selected="True" input="Left_" />
+                <SelectField field="Left_Ketamine" selected="True" input="Left_" />
+                <SelectField field="Left_Legalh" selected="True" input="Left_" />
+                <SelectField field="Left_LSD" selected="True" input="Left_" />
+                <SelectField field="Left_Meth" selected="True" input="Left_" />
+                <SelectField field="Left_Mushrooms" selected="True" input="Left_" />
+                <SelectField field="Left_Nicotine" selected="True" input="Left_" />
+                <SelectField field="Left_Semer" selected="True" input="Left_" />
+                <SelectField field="Left_VSA" selected="True" input="Left_" />
+                <SelectField field="Left_Starting age" selected="True" input="Left_" />
+                <SelectField field="Left_Ending age" selected="True" input="Left_" />
+                <SelectField field="Left_New_drug_id" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Alcohol" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Amphet" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Amyl" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Benzos" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Caff" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Cannabis" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Choc" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Coke" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Crack" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Ecstasy" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Heroin" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Ketamine" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Legalh" selected="True" input="Left_" />
+                <SelectField field="Left_Right_LSD" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Meth" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Mushrooms" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Nicotine" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Semer" selected="True" input="Left_" />
+                <SelectField field="Left_Right_VSA" selected="True" input="Left_" />
+                <SelectField field="Right_score_id" selected="True" input="Right_" />
+                <SelectField field="Right_Nscore" selected="True" rename="Right_Nscore" input="Right_" />
+                <SelectField field="Right_Escore" selected="True" rename="Right_Escore" input="Right_" />
+                <SelectField field="Right_Oscore" selected="True" rename="Right_Oscore" input="Right_" />
+                <SelectField field="Right_AScore" selected="True" rename="Right_AScore" input="Right_" />
+                <SelectField field="Right_Cscore" selected="True" rename="Right_Cscore" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="462" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo."Score_Dim"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-NNKF398\MSSQLSERVER02
+Catalog=Star Schema Engy
+Query=dbo."Score_Dim"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="score_id" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Score_Dim&quot;" type="Int32" />
+            <Field name="Nscore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Score_Dim&quot;" type="V_WString" />
+            <Field name="Escore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Score_Dim&quot;" type="V_WString" />
+            <Field name="Oscore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Score_Dim&quot;" type="V_WString" />
+            <Field name="AScore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Score_Dim&quot;" type="V_WString" />
+            <Field name="Cscore" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Score_Dim&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" />
+            <SelectField field="New_drug_id" selected="True" />
+            <SelectField field="score_id" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="786" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema Engy;Data Source=DESKTOP-NNKF398\MSSQLSERVER02;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-NNKF398;Use Encryption for Data=False;Tag with column collation when possible=False|||Fact</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="ID" Dest="id" />
+                <Field Source="New_drug_id" Dest="drug_id" />
+                <Field Source="score_id" Dest="score_id" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-NNKF398\MSSQLSERVER02
+Catalog=Star Schema Engy
+Query=Fact</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fact tableWorkflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="679bc1fb-de07-434a-bd44-619c36eeb6cb" />
+      <Telemetry>
+        <PreviousWorkflowId value="f998164c-e170-47d7-868d-ecc82c8dbcd1" />
+        <OriginWorkflowId value="f998164c-e170-47d7-868d-ecc82c8dbcd1" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
